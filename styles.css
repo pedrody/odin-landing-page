@@ -25,14 +25,18 @@ a {
 }
 
 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #E5E7EB;
     background-color: #3882F6;
-    border: 1px solid #3882F6;
+    border: 2px solid #3882F6;
     font-weight: bold;
+    font-size: 16px;
     border-radius: 8px;
     padding: 8px 16px;
-    width: 90px;
-    height: 32px;
+    width: 124px;
+    height: 36px;
 }
 
 .section {
@@ -134,4 +138,38 @@ button {
 .quote-section p {
     font-weight: bold;
     font-size: 22px;
+}
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.call-to-action-card {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    width: 60vw;
+    height: 150px;
+}
+
+.call-to-action-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-to-action-text p {
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.call-to-action-card button {
+    border-color: white;
 }
