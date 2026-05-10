@@ -38,10 +38,13 @@ button {
 .section {
     padding-left: 20%;
     padding-right: 20%;
+    height: 50vh;
 }
 
 .header {
-    padding-top: 16px;
+    padding: 16px;
+    padding-left: 20%;
+    padding-right: 20%;
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
@@ -57,7 +60,6 @@ button {
     flex-grow: 0;
     justify-content: space-between;
     align-items: center;
-    height: 50vh;
     gap: 24px;
 }
 
@@ -84,4 +86,33 @@ button {
     font-size: 14px;
     text-align: center;
     padding: 130px 220px;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information-items {
+    display: flex;
+    gap: 50px;
+    padding-top: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+
+.information-placeholder {
+    border: 4px solid #3882F6;
+    border-radius: 14px;
+    padding: 80px 75px;
 }
